@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Responsive Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOX Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">Byron</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Home Text And Image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hi, I'm <br>Byron <span>Fisher</span> <br> I am a Software Developer</h1>
+            <!-- Button -->
+            <a href="https://docs.google.com/document/d/1ILPISQUm-S2E4dp5_UmuGS3SVn09Eq7JliLecMoWVWg/edit?usp=sharing">Hire Me</a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <!-- Social -->
+        <div class="social">
+            <a href="https://www.linkedin.com/in/byron-fisher-498b31121/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/byron47"><i class="bx bxl-github"></i></a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+        <div class="about-content">
+        <!-- About Image -->
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <!-- About Text -->
+        <div class="about-text">
+            <h1>I'm Byron</h1>
+            <p> I am Creative junior software engineer able to pick up new languages and technologies as needed. Before being a junior
+                software engineer, I was employed as a customer service representative for Toyota Financial where I helped to
+                answer questions regarding automotive accounts. Worked on taking payments as well dealing with accounting
+                issues and maintaining lease and retail accounts for Toyota as well as Lexus customers.</p>
+            <a href="https://docs.google.com/document/d/1ILPISQUm-S2E4dp5_UmuGS3SVn09Eq7JliLecMoWVWg/edit?usp=sharing">Download Resume</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="Projects">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="services-content">
+            <!-- Boxes -->
+            <div class="box">
+                <img src="images/html.png" alt="">
+                <h1>Calculator Project</h1>
+                <p>In this Project I  created a funtional Calculator application using HTML, CSS, and JavaScript.</p>
+                <a href="">Live Demo</a> &ensp;
+                <a href="">Source Code</a>
+            </div>
+
+            <div class="box">
+                <img src="images/css-3.png" alt="">
+                <h1>Notes App</h1>
+                <p> In this Project, I created a note taking application using HTML, CSS, and JavaScript.</p>
+                <a href=" ">Live Demo</a> &ensp;
+                <a href="">Source Code</a>
+            </div>
+
+            <div class="box">
+                <img src="images/js.jpg" alt="">
+                <h1>Portfolio Project</h1>
+                <p>In this project I  created a Portfolio project using HTML, CSS, and JavaScript.</p>
+                <a href="">Live Demo</a> &ensp;
+                <a href="">Source Code</a>
+            </div>
+
+           
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+        <div class="heading work-heading">
+            <h2>Work</h2>
+            <p>Work With Us</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>We Belive To Deliver Best <br> Quality Work</h1>
+                <p>Software Developer experienced in Html, Css, JavaScript, React, Node, Express, Postgresql</p>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="work-img">
+                <img src="images/about.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave a message we will try to reply in 24 hours.</p>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169; 2023 Byron All Right Reserves</p>
+    </div>
+
+
+
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
